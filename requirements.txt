@@ -4,4 +4,3 @@ numpy
 matplotlib
 seaborn
 pandas
-python==3.10.12
