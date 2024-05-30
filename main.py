@@ -18,11 +18,12 @@ app_mode = st.sidebar.selectbox("Select Page",["Home","About","Disease Recogniti
 
 #Main Page
 if(app_mode=="Home"):
-    st.header("PLANT DISEASE RECOGNITION SYSTEM")
+    st.markdown('<h4>Pest and disease detection in fruit using Boosting-algorithm</h4>', unsafe_allow_html=True)
+    st.write("By Kehinde David Oluwatimileyin 20/47cs/01128")
     image_path = "home_page.jpeg"
     st.image(image_path,use_column_width=True)
     st.markdown("""
-    Welcome to the Plant Disease Recognition System! 🌿🔍
+    Welcome to the Pest and disease detection System! 🌿🔍
     
     Our mission is to help in identifying plant diseases efficiently. Upload an image of a plant, and our system will analyze it to detect any signs of diseases. Together, let's protect our crops and ensure a healthier harvest!
 
